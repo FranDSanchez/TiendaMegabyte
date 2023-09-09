@@ -1,0 +1,25 @@
+#divFooter {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.textLi {
+  font-size: 1.3rem;
+  list-style: none;
+  margin-top: 11px;
+}
+#ulFooter {
+  background-color: none;
+}
+footer {
+  div {
+    div {
+      div {
+        p {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}

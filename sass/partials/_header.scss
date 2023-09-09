@@ -1,0 +1,93 @@
+$bgColor: rgb(0, 0, 0);
+$textColor: rgb(0, 131, 11) !important;
+
+@font-face {
+  font-family: valorantfont;
+  src: url(/fonts/ValorantFont.ttf);
+}
+
+header {
+  height: 7rem;
+  top: 0px;
+  position: sticky !important;
+  z-index: 99999;
+}
+
+#navBoost {
+  width: 100%;
+  font-size: 2.5rem;
+  display: flex;
+}
+nav {
+  height: 100%;
+  ul {
+    display: flex;
+    li {
+      list-style: none;
+      justify-content: space-evenly;
+      a {
+        font-family: "Encode Sans Condensed", sans-serif;
+        text-align: center;
+        color: $textColor;
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.247);
+          color: $textColor;
+          transition: 0.5s;
+        }
+        &:focus {
+          background-color: rgba(255, 255, 255, 0.918);
+        }
+      }
+    }
+  }
+}
+#ulNavBar {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px !important;
+}
+.navbar-brand {
+  font-size: 2rem;
+  font-family: valorantfont;
+  color: rgb(255, 255, 255);
+}
+.form-control {
+  font-size: 1.1rem;
+}
+.btn {
+  --bs-btn-font-size: 1.4rem;
+}
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: $bgColor !important;
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    height: 7rem;
+    background-color: grey;
+    top: 0px;
+    position: sticky !important;
+  }
+  .navbar-toggler {
+    font-size: 3rem;
+    line-height: 1;
+    color: white imr !important;
+    background-color: transparent;
+    border: 0.5rem solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+  }
+  .navbar-brand {
+    font-size: 4rem;
+    font-family: valorantfont;
+    color: rgb(255, 255, 255);
+  }
+  ul {
+    background-color: rgb(158, 158, 158);
+  }
+}
+#icoTienda {
+  height: 40px;
+  width: 50px;
+}

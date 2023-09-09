@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Fugaz+One&family=Julius+Sans+One&family=Playball&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Encode+Sans+Condensed&family=Fugaz+One&family=Julius+Sans+One&family=Playball&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Encode+Sans+Condensed&family=Fugaz+One&family=Julius+Sans+One&family=Playball&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link Boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- Link CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="shortcut icon" href="img/1179866.ico" type="image/x-icon" />
+    <title>Tienda</title>
+  </head>
+  <body>
+    <div id="logoNombreHead" class="column-gap-0"><p>MegaByte Store</p></div>
+    <!--Barra de navegacion  -->
+    <header>
+      <nav
+        id="navBoost"
+        class="navbar navbar-expand-md bg-body-tertiary navbar-dark"
+      >
+        <div id="div-navbar" class="container-fluid">
+          <a class="navbar-brand" href="#">MB</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            Menu<span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul id="ulNavBar" class="navbar-nav me-auto col">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/TiendaOnline/index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/perfil.html">Perfil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/login.html">Iniciar Sesion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/carrito.html">Carrito</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button class="btn btn-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main  -->
+
+    <main class="container-fluid col">
+      <!-- Imagen Tienda -->
+      <div id="DivImg " class="col-12">
+        <div
+          id="carouselExampleInterval"
+          class="carousel slide carousel-fade container-fluid"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <img
+                src="./img/asusDestornillador.webp"
+                class="ImgCarousel d-block w-100"
+                alt="asusDestornillador"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img
+                src="./img/microsNew.webp"
+                class="ImgCarousel d-block w-100"
+                alt="microsNew"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="3500">
+              <img
+                src="./img/starfieldAmd.webp"
+                class="ImgCarousel d-block w-100"
+                alt="starfieldAmd"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="3500">
+              <img
+                src="./img/asus23.webp"
+                class="ImgCarousel d-block w-100"
+                alt="starfieldAmd"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <h1>MegaByte Store</h1>
+      <section id="sectMain" class="container">
+        <article class="text-center">
+          En MegaByte Store, somos tu destino confiable para encontrar los
+          mejores componentes de computadora y accesorios para teléfonos
+          móviles. Nuestra misión es proporcionar a nuestros clientes productos
+          de alta calidad a precios competitivos, respaldados por un servicio al
+          cliente excepcional.
+        </article>
+
+        <h2 id="h2Main">Productos destacados:</h2>
+        <div id="productosDes" class="col">
+          <div class="Productos-Class">
+            <img id="imgSilla" src="./img/silla.jpg" alt="silla" />
+          </div>
+          <div class="Productos-Class">
+            <img id="imgGabinete" src="./img/gabinetepc.png" alt="gabinete" />
+          </div>
+          <div class="Productos-Class">
+            <img id="imgJoy" src="./img/joystick2.png" alt="joystick" />
+          </div>
+        </div>
+        <article>
+          <h3>¿Qué ofrecemos?</h3>
+        </article>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+      <div class="container-fluid">
+        <div id="divFooter" class="row p-5 bg-dark">
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <h4>Contactos</h4>
+            <p>Dirección: Arieta 2222, San Justo,Buenos Aires</p>
+            <p>Teléfono: 1123456789</p>
+            <p>Email: contactomegabytes@gmail.com</p>
+          </div>
+
+          <!-- Sobre nosotros -->
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <h4>¿Qué ofrecemos?</h4>
+            <ul id="ulFooter" class="bg-dark">
+              <li class="textLi">
+                Componentes de Computadora: Desde procesadores de última
+                generación hasta tarjetas gráficas de alto rendimiento.
+              </li>
+
+              <li class="textLi">
+                Accesorios para Teléfonos Móviles: Desde fundas elegantes hasta
+                cargadores de carga rápida.
+              </li>
+              <li class="textLi">
+                Asesoramiento Expertos: Nuestro equipo está compuesto por
+                expertos apasionados en tecnología.
+              </li>
+              <li class="textLi">
+                Servicio de Reparación: ¿Necesitas una reparación? Nuestros
+                técnicos altamente capacitados están listos para resolver
+                cualquier problema que puedas tener.
+              </li>
+            </ul>
+          </div>
+          <!-- Ubicacion -->
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <h4>Donde nos encuentras</h4>
+            <iframe
+              id="ubicacion"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d18561.118318651028!2d-58.539981331492136!3d-34.67557899698631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1691102978767!5m2!1ses-419!2sar"
+              width="300"
+              height="250"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Boostrap Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

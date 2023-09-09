@@ -1,0 +1,45 @@
+$precio: 3rem;
+
+#mainProductos {
+  border-color: black;
+  height: 155rem;
+  background-color: #2c8b00;
+}
+
+#sectionProductosImgs {
+  height: 100%;
+  width: 100%;
+}
+
+.productosImgs {
+  height: 25rem;
+  width: 29rem;
+  border-radius: 1.5rem;
+}
+.ProductosGeneral {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.divsImagenProductos {
+  margin: 2rem 4rem 2rem 4rem;
+  padding: 15px;
+  border-radius: 2px;
+  border-style: solid;
+  border-radius: 11px;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.432);
+    transition: 0.3s;
+  }
+}
+.spanPrecio {
+  display: block;
+  text-align: center;
+  font-size: $precio;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1215px) {
+  #mainProductos {
+    height: 100%;
+  }
+}
