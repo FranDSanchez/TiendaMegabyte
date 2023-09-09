@@ -91,7 +91,6 @@
       </nav>
     </header>
     <!-- Main  -->
-    <!-- Imagen Tienda -->
     <main class="container-fluid col">
       <!-- Imagen Tienda -->
       <div id="DivImg " class="col-12">
@@ -150,8 +149,86 @@
           </button>
         </div>
       </div>
+      <hr />
+      <h1>Carrito</h1>
+      <div class="ProductosGeneral">
+        <div class="divsImagenProductos">
+          <img
+            class="productosImgs"
+            src="../img/producto1.jpg"
+            alt="imagenProducto1"
+          />
+          <h3 class="text-center">Placa de video Nvdia</h3>
+          <span class="text-bg-dark spanPrecio">$170.000</span>
+        </div>
+        <div class="divsImagenProductos">
+          <img
+            class="productosImgs"
+            src="../img/producto2.jpg"
+            alt="imagenProducto2"
+          />
+          <h3 class="text-center">Procesador Intel i3 12Gen</h3>
+          <span class="text-bg-dark spanPrecio">$42.000</span>
+        </div>
 
-      <!-- Formulario -->
+        <div class="col-md-8 order-md-1">
+          <hr class="mb-4" />
+          <h2 class="text-center">Pagar</h2>
+          <form>
+            <div id="" class="row formTarjeta">
+              <div class="col-md-6 mb-3">
+                <label for="cc-name">Nombre en Tarjeta*</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="cc-name"
+                  placeholder=""
+                  required
+                  max="30"
+                />
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="">Numero Tarjeta</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id=""
+                  placeholder=""
+                  required=""
+                />
+              </div>
+            </div>
+            <div class="row formTarjeta">
+              <div class="col-md-3 mb-3">
+                <label for="cc-expiration">Fecha vencimiento</label>
+                <input
+                  type="month"
+                  class="form-control"
+                  id="cc-expiration"
+                  min="2023-06"
+                  max="2033-09"
+                  placeholder=""
+                  required
+                />
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="cc-expiration">CVV</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="cc-cvv"
+                  placeholder="000"
+                  required
+                />
+              </div>
+            </div>
+            <hr class="mb-4" />
+            <button class="btn btn-primary btn-lg btn-block" type="submit">
+              Completar Compra
+            </button>
+          </form>
+        </div>
+      </div>
     </main>
 
     <!-- FOOTER -->
