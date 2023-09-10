@@ -27,8 +27,10 @@ $precio: 3rem;
   border-radius: 2px;
   border-style: solid;
   border-radius: 11px;
+  background-color: rgb(189, 189, 189);
   &:hover {
     background-color: rgba(0, 0, 0, 0.432);
+    color: white;
     transition: 0.3s;
   }
 }

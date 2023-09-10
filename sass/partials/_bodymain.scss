@@ -38,6 +38,30 @@ h2 {
   }
 }
 
+.container {
+  .marcasProductos {
+    background-color: rgb(202, 202, 202);
+    border-radius: 22px;
+    overflow: hidden;
+    .logosProductos {
+      height: 100px;
+      border: 1px;
+      border-color: black;
+      border-style: solid;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .logosImg {
+        height: 33px;
+      }
+      #imgNvidia {
+        height: 70px;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 767px) {
   h1 {
     font-size: 3rem;

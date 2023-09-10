@@ -29,7 +29,7 @@
     />
     <!-- Link CSS -->
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
-    <link rel="shortcut icon" href="img/1179866.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./img/1179866.ico" type="image/x-icon" />
     <title>Tienda</title>
   </head>
   <body>
@@ -56,10 +56,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul id="ulNavBar" class="navbar-nav me-auto col">
               <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="TiendaMegabyte/index.html"
+                <a class="nav-link active" aria-current="page" href="index.html"
                   >Inicio</a
                 >
               </li>
@@ -155,26 +152,80 @@
       <section id="sectMain" class="container">
         <article class="text-center">
           En MegaByte Store, somos tu destino confiable para encontrar los
-          mejores componentes de computadora y accesorios para teléfonos
-          móviles. Nuestra misión es proporcionar a nuestros clientes productos
-          de alta calidad a precios competitivos, respaldados por un servicio al
-          cliente excepcional.
+          mejores componentes de computadora. Nuestra misión es proporcionar a
+          nuestros clientes productos de alta calidad a precios competitivos,
+          respaldados por un servicio al cliente excepcional.
         </article>
 
         <h2 id="h2Main">Productos destacados:</h2>
-        <div id="productosDes" class="col">
-          <div class="Productos-Class">
-            <img id="imgSilla" src="./img/silla.jpg" alt="silla" />
+        <div class="ProductosGeneral">
+          <div class="divsImagenProductos">
+            <img
+              class="productosImgs"
+              src="./img/producto1.jpg"
+              alt="imagenProducto1"
+            />
+            <h3 class="text-center">Placa de video Nvdia</h3>
+            <span class="text-bg-dark spanPrecio">$170.000</span>
           </div>
-          <div class="Productos-Class">
-            <img id="imgGabinete" src="./img/gabinetepc.png" alt="gabinete" />
-          </div>
-          <div class="Productos-Class">
-            <img id="imgJoy" src="./img/joystick2.png" alt="joystick" />
+          <div class="divsImagenProductos">
+            <img
+              class="productosImgs"
+              src="./img/producto2.jpg"
+              alt="imagenProducto2"
+            />
+            <h3 class="text-center">Procesador Intel i3 12Gen</h3>
+            <span class="text-bg-dark spanPrecio">$42.000</span>
           </div>
         </div>
+
         <article>
-          <h3>¿Qué ofrecemos?</h3>
+          <h2>Marcas que confian en nosotros</h2>
+          <div class="container">
+            <div class="marcasProductos row">
+              <div class="col-2 logosProductos">
+                <img
+                  class="logosImg"
+                  src="logos/intellogo.png"
+                  alt="logoIntel"
+                />
+              </div>
+              <div class="col-2 logosProductos">
+                <img class="logosImg" src="logos/asus.svg.png" alt="logoAsus" />
+              </div>
+              <div class="col-2 logosProductos">
+                <img
+                  class="logosImg"
+                  src="./logos/ADATA_Technology_logo_svg.png"
+                  alt="logoAdata"
+                />
+              </div>
+              <div class="col-2 logosProductos">
+                <img
+                  id="imgNvidia"
+                  class="logosImg"
+                  height="100px"
+                  width="80px"
+                  src="./logos/nvidia-logo-0.png"
+                  alt="logoNvidia"
+                />
+              </div>
+              <div class="col-2 logosProductos">
+                <img
+                  class="logosImg"
+                  src="./logos/2560px-Corsair.svg.png"
+                  alt="logoCorsair"
+                />
+              </div>
+              <div class="col-2 logosProductos">
+                <img
+                  class="logosImg"
+                  src="./logos/AMD_Logo.svg.png"
+                  alt="logoAMD"
+                />
+              </div>
+            </div>
+          </div>
         </article>
       </section>
     </main>

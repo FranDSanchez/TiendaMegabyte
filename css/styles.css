@@ -112,6 +112,23 @@ h2 {
 #h2Main:hover {
   transform: scale(1.2, 1.2); }
 
+.container .marcasProductos {
+  background-color: #cacaca;
+  border-radius: 22px;
+  overflow: hidden; }
+  .container .marcasProductos .logosProductos {
+    height: 100px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .container .marcasProductos .logosProductos .logosImg {
+      height: 33px; }
+    .container .marcasProductos .logosProductos #imgNvidia {
+      height: 70px; }
+
 @media screen and (max-width: 767px) {
   h1 {
     font-size: 3rem; }
@@ -231,9 +248,11 @@ footer div div div p {
   padding: 15px;
   border-radius: 2px;
   border-style: solid;
-  border-radius: 11px; }
+  border-radius: 11px;
+  background-color: #bdbdbd; }
   .divsImagenProductos:hover {
     background-color: rgba(0, 0, 0, 0.432);
+    color: white;
     transition: 0.3s; }
 
 .spanPrecio {
