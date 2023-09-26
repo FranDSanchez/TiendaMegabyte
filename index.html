@@ -27,6 +27,8 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+    <!-- Link Animaciones AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Link CSS -->
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
     <link rel="shortcut icon" href="./img/1179866.ico" type="image/x-icon" />
@@ -163,7 +165,11 @@
 
         <h2 id="h2Main">Productos destacados:</h2>
         <div class="ProductosGeneral">
-          <div class="divsImagenProductos">
+          <div
+            class="divsImagenProductos"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
             <img
               class="productosImgs"
               src="./img/producto1.jpg"
@@ -172,7 +178,11 @@
             <h3 class="text-center">Placa de video Nvdia</h3>
             <span class="text-bg-dark spanPrecio">$170.000</span>
           </div>
-          <div class="divsImagenProductos">
+          <div
+            class="divsImagenProductos"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
             <img
               class="productosImgs"
               src="./img/producto2.jpg"
@@ -188,7 +198,7 @@
         <article>
           <h2>Marcas que confian en nosotros</h2>
           <div class="container">
-            <div class="marcasProductos row">
+            <div class="marcasProductos row" data-aos="zoom-out">
               <div class="col-xs-2 col-md-6 col-lg-2 logosProductos">
                 <img
                   class="logosImg"
@@ -293,5 +303,10 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -27,6 +27,8 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+    <!-- Link Animaciones AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Link CSS -->
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
     <link rel="shortcut icon" href="../img/1179866.ico" type="image/x-icon" />
@@ -155,7 +157,7 @@
         <h1>Productos</h1>
         <hr />
         <div class="ProductosGeneral">
-          <div class="divsImagenProductos">
+          <div class="divsImagenProductos" data-aos="flip-right">
             <img
               class="productosImgs"
               src="../img/producto1.jpg"
@@ -164,7 +166,7 @@
             <h3 class="text-center">Placa de video Nvdia</h3>
             <span class="text-bg-dark spanPrecio">$170.000</span>
           </div>
-          <div class="divsImagenProductos">
+          <div class="divsImagenProductos" data-aos="flip-right">
             <img
               class="productosImgs"
               src="../img/producto2.jpg"
@@ -173,7 +175,7 @@
             <h3 class="text-center">Procesador Intel i3 12Gen</h3>
             <span class="text-bg-dark spanPrecio">$42.000</span>
           </div>
-          <div class="divsImagenProductos">
+          <div class="divsImagenProductos" data-aos="flip-right">
             <img
               class="productosImgs"
               src="../img/producto7M2.jpg"
@@ -182,7 +184,7 @@
             <h3 class="text-center">Memoria ADATA M2 850GB</h3>
             <span class="text-bg-dark spanPrecio">$20.000</span>
           </div>
-          <div class="divsImagenProductos">
+          <div class="divsImagenProductos" data-aos="flip-right">
             <img
               class="productosImgs"
               src="../img/producto3.jpg"
@@ -191,7 +193,7 @@
             <h3 class="text-center">Procesador AMD Ryzen 5 5600</h3>
             <span class="text-bg-dark spanPrecio">$54.999</span>
           </div>
-          <div class="divsImagenProductos">
+          <div class="divsImagenProductos" data-aos="flip-right">
             <img
               class="productosImgs"
               src="../img/silla.jpg"
@@ -200,7 +202,7 @@
             <h3 class="text-center">Silla Corsair</h3>
             <span class="text-bg-dark spanPrecio">$87.000</span>
           </div>
-          <div class="divsImagenProductos">
+          <div class="divsImagenProductos" data-aos="flip-right">
             <img
               class="productosImgs"
               src="../img/producto6pc.jpg"
@@ -209,7 +211,7 @@
             <h3 class="text-center">PC Armada INTEL</h3>
             <span class="text-bg-dark spanPrecio">$150.000</span>
           </div>
-          <div class="divsImagenProductos">
+          <div class="divsImagenProductos" data-aos="flip-right">
             <img
               class="productosImgs"
               src="../img/producto8ssd.jpg"
@@ -218,7 +220,7 @@
             <h3 class="text-center">Memoria SSD 1TB</h3>
             <span class="text-bg-dark spanPrecio">$33.000</span>
           </div>
-          <div class="divsImagenProductos">
+          <div class="divsImagenProductos" data-aos="flip-right">
             <img
               class="productosImgs"
               src="../img/producto4.jpg"
@@ -227,7 +229,7 @@
             <h3 class="text-center">Monitor ASUS</h3>
             <span class="text-bg-dark spanPrecio">$140.000</span>
           </div>
-          <div class="divsImagenProductos">
+          <div class="divsImagenProductos" data-aos="flip-right">
             <img
               id="imgJoy"
               class="productosImgs"
@@ -302,5 +304,10 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
